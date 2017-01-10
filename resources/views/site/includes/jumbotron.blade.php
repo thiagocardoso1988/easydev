@@ -13,7 +13,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item slides active">
-      <div class="slide-1"></div>
+      <div class="slide"></div>
       <div class="hero">
         <hgroup>
             <h1>We are creative</h1>        
