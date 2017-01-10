@@ -12,38 +12,16 @@
   
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    <div class="item slides active">
-      <div class="slide"></div>
-      <div class="hero">
-        <hgroup>
-            <h1>We are creative</h1>        
-            <h3>Get start your next awesome project</h3>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">See all features</button>
-      </div>
-    </div>
-    <!-- <div class="item slides">
-      <div class="slide-2"></div>
-      <div class="hero">        
-        <hgroup>
-            <h1>We are smart</h1>        
-            <h3>Get start your next awesome project</h3>
-        </hgroup>       
-        <button class="btn btn-hero btn-lg" role="button">See all features</button>
-      </div>
-    </div>
-    <div class="item slides">
-      <div class="slide-3"></div>
-      <div class="hero">        
-        <hgroup>
-            <h1>We are amazing</h1>        
-            <h3>Get start your next awesome project</h3>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button">See all features</button>
-      </div>
-    </div> -->
 
-    <vue-carouselitem datainfo='{"header": "Teste", "description": "Outro teste", "btncaption": "Ir para teste", "bgimg": "/images/Valene-Ashia-Creative-Studio-Home2.jpg"}'></vue-carouselitem>
+    <vue-carouselitem datainfo='{"active": true, "header": "<img src=\"/images/logos/easydev_logo_white_200.png\" style=\"width: 400px\">", "description": "Criando projetos e apps para facilitar sua vida.", "btncaption": "Conheça nossa empresa", "bgimg": "/images/Valene-Ashia-Creative-Studio-Home2.jpg"}'></vue-carouselitem>
+
+    <vue-carouselitem datainfo='{"header": "Design Responsivo", "description": "Sua empresa em qualquer dispositivo", "btncaption": "Entenda o que é", "bgimg": "/images/responsive-design.jpg"}'></vue-carouselitem>
+
+    <vue-carouselitem datainfo='{"header": "Criação sob medida", "description": "Sua necessidade sob medida", "btncaption": "Entre em contato", "bgimg": "/images/background.jpg"}'></vue-carouselitem>
+    
+    <vue-carouselitem datainfo='{"header": "Seja livre", "description": "Tenha acesso ao seu negócio de qualquer lugar", "btncaption": "Entre em contato", "bgimg": "/images/web-design-limerick-imwebdesigner.com.jpg"}'></vue-carouselitem>
+    
+    <!-- <vue-carouselitem datainfo='{"header": "", "description": "", "btncaption": "", "bgimg": "/images/"}'></vue-carouselitem> -->
 
   </div> 
 </div>
