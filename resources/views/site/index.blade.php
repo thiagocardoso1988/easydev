@@ -9,4 +9,6 @@
 
   @include('site.includes.about')
 
+  @include('site.includes.footer')
+
 @endsection

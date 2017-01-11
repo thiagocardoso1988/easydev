@@ -1,6 +1,6 @@
 <template>
   <div class="item slides" v-bind:class="{ active: this.info.active }">
-    <div class="slide" :style="{ backgroundImage: 'url(' + info.bgimg + ')' }">></div>
+    <div class="slide" :style="{ backgroundImage: 'url(' + info.bgimg + ')' }"></div>
     <div class="hero">
       <hgroup>
           <h1 v-html="info.header"></h1> 
