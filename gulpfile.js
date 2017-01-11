@@ -20,11 +20,12 @@ require('laravel-elixir-vue-2');
 
 elixir(function(mix) {
   var bootstrapPath = 'node_modules/bootstrap-sass/assets';
+  var sitePath = 'site/';
   mix
     .copy(bootstrapPath + '/fonts', 'public/fonts')
     .copy(bootstrapPath + '/javascripts/bootstrap.min.js', 'public/js')
     .copy('node_modules/font-awesome/fonts','public/fonts')
-  	.sass('app.scss')
-  	.sass('site.scss')
-    .webpack('site.js');
+  	//.sass('app.scss')
+  	.sass(sitePath + 'site.scss')
+    .webpack(sitePath + 'site.js');
 });

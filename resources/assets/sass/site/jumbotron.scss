@@ -1,0 +1,12 @@
+
+#logo-jumbotron { width: 500px; }
+
+
+@media screen and (max-width: 768px){
+    #logo-jumbotron { width: 350px; }
+}
+
+@media screen and (max-width: 480px){
+    #logo-jumbotron { width: 250px; }
+}
+

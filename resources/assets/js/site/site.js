@@ -1,5 +1,5 @@
-require('./app');
-
+require('../app');
+require('./menu');
 
 //Vue.component('example', require('./components/Example.vue'));
 //Vue.component('v-CarouselItem', require('./components/CarouselItem.vue'));
