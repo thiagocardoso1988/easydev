@@ -17,6 +17,7 @@
         <li><a href="#">Sites e Sistemas Web</a></li>
         <li><a href="#">Produtos e Serviços</a></li>
         <li><a href="#">Contato</a></li>
+        <li><a href="#">Blog</a></li>
       </ul>
     </div><!-- /.nav-collapse -->
   </div><!-- /.container -->

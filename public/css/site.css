@@ -10893,8 +10893,9 @@ body {
 }
 
 .navbar-container {
-  height: 100px;
-  line-height: 100px;
+  /* padding: 20px 0;
+    height: 100px;
+    line-height: 100px; */
 }
 
 .navbar.navbar-fixed-top.fixed-theme {
@@ -10986,6 +10987,12 @@ footer {
   -o-transform: scale(1.1);
 }
 
+.social-link a {
+  color: white;
+  line-height: 50px;
+  display: block;
+}
+
 .icon-ul {
   list-style-type: none !important;
   margin: 0px;
@@ -11054,6 +11061,18 @@ footer {
 .bottom_ul li a {
   color: #FFF;
   font-size: 12px;
+}
+
+@media screen and (min-width: 769px) {
+  #logo-footer {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #logo-footer {
+    width: 150px;
+  }
 }
 
 /*# sourceMappingURL=site.css.map */
