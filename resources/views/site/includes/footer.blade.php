@@ -46,7 +46,7 @@
 <div class="copyright">
   <div class="container">
     <div class="col-md-6">
-      <p>© 2016 - All Rights with Webenlance</p>
+      <p>© 2016 - Todos os direitos reservados</p>
     </div>
     <div class="col-md-6">
       <ul class="bottom_ul">

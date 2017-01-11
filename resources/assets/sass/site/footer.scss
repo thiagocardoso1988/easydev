@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
-footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; }
+footer { background-color:#0c1a1e; min-height:350px; font-family: 'Raleway', 'Open Sans', sans-serif; }
 .footerleft { margin-top:50px; padding:0 36px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
 
-.footerleft p { color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p { color:#fff; font-size:12px !important; font-family: 'Raleway', 'Open Sans', sans-serif; margin-bottom:15px;}
 .footerleft p i { width:20px; color:#999;}
 
 
@@ -28,12 +28,15 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
  .icon { float:left; margin-right:5px;}
  
  
- .copyright { min-height:40px; background-color:#000000;}
+ .copyright { min-height:40px; background-color:rgba(20, 20, 20, 1);}
  .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
  .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
  .post p { font-size:12px; color:#FFF; line-height:20px;}
  .post p span { display:block; color:#8f8f8f;}
  .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
  .bottom_ul li { float:left; line-height:40px;}
- .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+
+ //.bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li + li:before { content:"|"; color:#FFF; margin-right:8px; margin-left:8px;}
+ 
  .bottom_ul li a { color:#FFF;  font-size:12px;}

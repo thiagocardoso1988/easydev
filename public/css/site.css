@@ -10922,7 +10922,7 @@ body {
 footer {
   background-color: #0c1a1e;
   min-height: 350px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', 'Open Sans', sans-serif;
 }
 
 .footerleft {
@@ -10940,7 +10940,7 @@ footer {
 .footerleft p {
   color: #fff;
   font-size: 12px !important;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', 'Open Sans', sans-serif;
   margin-bottom: 15px;
 }
 
@@ -11005,7 +11005,7 @@ footer {
 
 .copyright {
   min-height: 40px;
-  background-color: #000000;
+  background-color: #141414;
 }
 
 .copyright p {
@@ -11044,8 +11044,8 @@ footer {
   line-height: 40px;
 }
 
-.bottom_ul li:after {
-  content: "/";
+.bottom_ul li + li:before {
+  content: "|";
   color: #FFF;
   margin-right: 8px;
   margin-left: 8px;
