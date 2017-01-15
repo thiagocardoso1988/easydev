@@ -1,3 +1,9 @@
+
+// Body
+$font-color: #f5f8fa;
+$font-size: 14px;
+
+
 /*
 * Style tweaks
 * --------------------------------------------------
@@ -11,7 +17,7 @@ body {
  * Custom styles
  */
  .navbar * {
-    color: white;
+    color: $font-color;
  }
 
 .navbar-brand img {
@@ -35,7 +41,7 @@ body {
 }
 
 .navbar-brand.fixed-theme {
-    font-size: 18px;
+    //font-size: $font-size;
 }
 
 .navbar-container.fixed-theme {
@@ -49,4 +55,16 @@ body {
 .navbar-container{
     transition: 0.3s;
     -webkit-transition:  0.3s;
+}
+
+.navbar-nav li a {
+    font-size: $font-size;
+}
+
+.navbar-nav li a:hover {
+    background-color: transparent;
+    border-bottom: 2px solid $font-color;
+    //font-size: $font-size + 2px;
+    transition: color 0.2s linear 0.2s, background 0.2s linear 0s;
+    color: $font-color; 
 }

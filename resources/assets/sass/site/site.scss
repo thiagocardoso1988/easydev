@@ -9,4 +9,24 @@
 
 @import "menu";
 
+@import "products";
+
+
 @import "footer";
+
+
+
+.section{
+	padding: 50px 0;
+	//height: 100vh;
+}
+
+.section > .container {
+    /* position: relative;
+    top: 50vh;
+    left: 50vw; */
+}
+
+.full-width-relative {
+	width: 100%;
+}

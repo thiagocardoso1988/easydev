@@ -10,9 +10,9 @@
           <img id="logo-footer" src="/images/logos/easydev_logo_white_200.png" alt="">
         </div>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-        <p><i class="fa fa-map-pin"></i> 210, Aggarwal Tower, Rohini sec 9, New Delhi -        110085, INDIA</p>
-        <p><i class="fa fa-phone"></i> Phone (India) : +91 9999 878 398</p>
-        <p><i class="fa fa-envelope"></i> E-mail : info@webenlance.com</p>
+        <p><i class="fa fa-map-pin"></i> Rua Raimundo Barbosa Nogueira 451, São José dos Campos/São Paulo</p>
+        <p><i class="fa fa-phone"></i> Telefone : +55 12 98111-0518</p>
+        <p><i class="fa fa-envelope"></i> E-mail : contato@easydev.com.br</p>
         
       </div>
 
@@ -69,10 +69,10 @@
 
 <div class="copyright">
   <div class="container">
-    <div class="col-md-6">
+    <div class="col-sm-6">
       <p>© 2016 - Todos os direitos reservados</p>
     </div>
-    <div class="col-md-6">
+    <div class="col-sm-6">
       <ul class="bottom_ul">
         <li><a href="#">easydev.com.br</a></li>
         <li><a href="#">Contato</a></li>

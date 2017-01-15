@@ -10885,7 +10885,7 @@ body {
  * Custom styles
  */
 .navbar * {
-  color: white;
+  color: #f5f8fa;
 }
 
 .navbar-brand img {
@@ -10903,10 +10903,6 @@ body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
 }
 
-.navbar-brand.fixed-theme {
-  font-size: 18px;
-}
-
 .navbar-container.fixed-theme {
   padding: 0;
 }
@@ -10918,6 +10914,44 @@ body {
 .navbar-container {
   transition: 0.3s;
   -webkit-transition: 0.3s;
+}
+
+.navbar-nav li a {
+  font-size: 14px;
+}
+
+.navbar-nav li a:hover {
+  background-color: transparent;
+  border-bottom: 2px solid #f5f8fa;
+  -webkit-transition: color 0.2s linear 0.2s, background 0.2s linear 0s;
+  transition: color 0.2s linear 0.2s, background 0.2s linear 0s;
+  color: #f5f8fa;
+}
+
+/* align the icon and the header text of column */
+#products .fa,
+#products p.lead {
+  width: 100%;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* ensures that all columns have the same height */
+#produts .row {
+  display: table;
+}
+
+#products .row [class*="col-"] {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* attach all panel buttons to bottom */
+#products .panel button.btn {
+  position: relative;
+  bottom: 20px;
 }
 
 footer {
@@ -11073,6 +11107,20 @@ footer {
   #logo-footer {
     width: 150px;
   }
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section > .container {
+  /* position: relative;
+    top: 50vh;
+    left: 50vw; */
+}
+
+.full-width-relative {
+  width: 100%;
 }
 
 /*# sourceMappingURL=site.css.map */

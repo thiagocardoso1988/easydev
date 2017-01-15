@@ -1,0 +1,26 @@
+/* align the icon and the header text of column */
+#products .fa,
+#products p.lead {
+  width: 100%;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* ensures that all columns have the same height */
+#produts .row {
+  display: table;
+}
+
+#products .row [class*="col-"] {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* attach all panel buttons to bottom */
+#products .panel button.btn {
+  position: relative;
+  bottom: 20px;
+}
