@@ -11,22 +11,31 @@
 
 @import "products";
 
+@import "contact";
 
 @import "footer";
 
 
+.section .section-title {
+  margin: 20px; 
+}
+
+.section .section-title h1 {
+  margin: 20px 0;
+}
+
 
 .section{
-	padding: 50px 0;
-	//height: 100vh;
+  padding: 50px 0;
+  //height: 100vh;
 }
 
 .section > .container {
-    /* position: relative;
-    top: 50vh;
-    left: 50vw; */
+  /* position: relative;
+  top: 50vh;
+  left: 50vw; */
 }
 
 .full-width-relative {
-	width: 100%;
+  width: 100%;
 }

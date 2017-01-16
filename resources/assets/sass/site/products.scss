@@ -1,15 +1,17 @@
+
 /* align the icon and the header text of column */
 #products .fa,
-#products p.lead {
+#products p {
   width: 100%;
   line-height: 1.6;
   text-align: center;
+}
+#products p.lead {
   text-transform: uppercase;
 }
 
-
 /* ensures that all columns have the same height */
-#produts .row {
+/* #produts .row {
   display: table;
 }
 
@@ -17,10 +19,11 @@
   float: none;
   display: table-cell;
   vertical-align: top;
+  height: 100%;
 }
+ */
 
-/* attach all panel buttons to bottom */
-#products .panel button.btn {
-  position: relative;
-  bottom: 20px;
+
+#products #grid {
+  margin: 50px 0;
 }

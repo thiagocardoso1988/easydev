@@ -1,6 +1,7 @@
 require('../app');
 require('./menu');
 require('./products');
+require('./contact');
 
 //Vue.component('example', require('./components/Example.vue'));
 //Vue.component('v-CarouselItem', require('./components/CarouselItem.vue'));

@@ -37,7 +37,7 @@ body {
 .navbar.navbar-fixed-top.fixed-theme {
     background-color: rgba(0, 0, 0, 0.3);
     //border-color: #080808;
-    box-shadow: 0 0 5px rgba(0,0,0,.8);
+    //box-shadow: 0 0 5px rgba(0,0,0,.8);
 }
 
 .navbar-brand.fixed-theme {
@@ -65,6 +65,6 @@ body {
     background-color: transparent;
     border-bottom: 2px solid $font-color;
     //font-size: $font-size + 2px;
-    transition: color 0.2s linear 0.2s, background 0.2s linear 0s;
+    //transition: color 0.2s linear 0.2s, background 0.2s linear 0s;
     color: $font-color; 
 }

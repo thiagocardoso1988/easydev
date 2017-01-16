@@ -1,0 +1,16 @@
+#contact {
+  background-image: url('/images/imac-on-a-table.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#contact .content {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#gmap_canvas img{
+  max-width:none!important;
+  background:none!important
+}

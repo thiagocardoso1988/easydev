@@ -9,7 +9,7 @@
         <div class="logofooter">
           <img id="logo-footer" src="/images/logos/easydev_logo_white_200.png" alt="">
         </div>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+        <p>Sua necessidade é o nosso objetivo. Estamos prontos para atendê-lo a desenvolver e impulsionar seu negócio.</p>
         <p><i class="fa fa-map-pin"></i> Rua Raimundo Barbosa Nogueira 451, São José dos Campos/São Paulo</p>
         <p><i class="fa fa-phone"></i> Telefone : +55 12 98111-0518</p>
         <p><i class="fa fa-envelope"></i> E-mail : contato@easydev.com.br</p>

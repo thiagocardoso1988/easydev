@@ -1,6 +1,6 @@
 
 /* ensures that all columns have the same height */
-$(document).ready(function(){
+/*$(document).ready(function(){
   var el = $(' #products .panel-body', this);
   var columnheights = el.map(function(){
       return $(this).height();
@@ -9,6 +9,6 @@ $(document).ready(function(){
   console.log(el);
   //el.height(maxheight);
 })
-
+*/
 
 /* attach all panel buttons to bottom */
