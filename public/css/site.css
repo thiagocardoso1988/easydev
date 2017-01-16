@@ -10971,6 +10971,18 @@ body {
   background: none !important;
 }
 
+#sites {
+  background-image: url("/images/glavnaya-parallax-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#sites .responsive-img {
+  width: 50%;
+}
+
 footer {
   background-color: #0c1a1e;
   min-height: 350px;
@@ -11135,7 +11147,7 @@ footer {
 }
 
 .section {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .section > .container {

@@ -42,22 +42,17 @@
     
       <!-- social section -->
       <div class="col-md-3 col-sm-6 paddingtop-bottom">
-        <!-- <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-          <div class="fb-xfbml-parse-ignore">
-            <blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
-          </div>
-        </div> -->
           <blockquote class="social-link">
-            <a href="https://www.facebook.com/facebook">
+            <a href="https://www.facebook.com/easydevbr/">
               <i class="fa fa-facebook-official fa-lg fa-2x" aria-hidden="true"></i> Facebook
             </a>
-            <a href="https://www.facebook.com/facebook">
+            <a href="#">
               <i class="fa fa-twitter fa-lg fa-2x" aria-hidden="true"></i> Twitter
             </a>
-            <a href="https://www.facebook.com/facebook">
+            <a href="#">
               <i class="fa fa-github fa-lg fa-2x" aria-hidden="true"></i> GitHub
             </a>
-            <a href="https://www.facebook.com/facebook">
+            <a href="#">
               <i class="fa fa-linkedin-square fa-lg fa-2x" aria-hidden="true"></i> LinkedIn
             </a>
           </blockquote>

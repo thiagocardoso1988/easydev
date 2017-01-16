@@ -1,0 +1,13 @@
+$bg-img: '/images/glavnaya-parallax-bg.jpg';
+
+#sites {
+  background-image: url($bg-img);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#sites .responsive-img{
+  width: 50%;
+}
