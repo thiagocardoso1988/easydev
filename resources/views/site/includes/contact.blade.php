@@ -6,7 +6,7 @@
   <div class="container">
     <div class="section-title">
       <h1>Contato</h1>
-      <p class="lead">Entre em contato conosco, tire suas dúvidas e requisite um orçamento. Estamos sempre disponíveis para atendê-lo a qualquer momento.</p>
+      <p class="lead uppercase">Entre em contato conosco, tire suas dúvidas e requisite um orçamento. Estamos sempre disponíveis para atendê-lo a qualquer momento.</p>
 
       <div class="row">
         <div class="col-md-6">

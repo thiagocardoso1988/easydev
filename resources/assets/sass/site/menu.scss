@@ -68,3 +68,9 @@ body {
     //transition: color 0.2s linear 0.2s, background 0.2s linear 0s;
     color: $font-color; 
 }
+
+.navbar-nav li.active {
+    background-color: none !important;
+    font-size: $font-size;
+    font-weight: 400;
+}

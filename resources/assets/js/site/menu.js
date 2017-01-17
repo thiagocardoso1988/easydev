@@ -74,5 +74,18 @@ window.onscroll = function(e) {
  * We have to do a first detectation of offset because the page
  * could be load with scroll down set.
  */
-offSetManager();
+//offSetManager();
+
+$(document).on('click', 'a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+
+    var el = $( this ).parent()
+    el.removeClass('active');
+});
+
+
 });

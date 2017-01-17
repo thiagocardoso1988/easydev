@@ -10944,6 +10944,12 @@ body {
   color: #f5f8fa;
 }
 
+.navbar-nav li.active {
+  background-color: none !important;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 #products {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100;White+Gloss */
   background: #d7dee3;
@@ -10989,7 +10995,7 @@ body {
 }
 
 #contact .section .container {
-  width: 1100%;
+  width: 100%;
 }
 
 #contact #gmap_canvas img {

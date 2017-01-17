@@ -7,16 +7,16 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       </button>
-      <a id="brand" class="navbar-brand" href="/">
+      <a id="brand" class="navbar-brand" href="#start">
         <img src="/images/logos/easydev_logo_white_200.png" alt="">
       </a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">A Empresa</a></li>
+        <li class="active"><a href="#about">A Empresa</a></li>
         <li><a href="#sites">Sites e Sistemas Web</a></li>
-        <li><a href="#">Produtos e Serviços</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#products">Produtos e Serviços</a></li>
+        <li><a href="#contact">Contato</a></li>
         <li><a href="{{ url('/blog') }}">Blog</a></li>
       </ul>
     </div><!-- /.nav-collapse -->
