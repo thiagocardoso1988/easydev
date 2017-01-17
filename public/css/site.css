@@ -10871,6 +10871,25 @@ button.close {
   }
 }
 
+/* #about .row {
+  display: table
+}
+ */
+#about .row {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+/* #about .row {
+  display: table;
+}
+
+#about .row [class=^col] {
+  background-color: red;
+}
+ */
 /*
 * Style tweaks
 * --------------------------------------------------
@@ -10925,16 +10944,24 @@ body {
   color: #f5f8fa;
 }
 
+#products {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100;White+Gloss */
+  background: #d7dee3;
+  /* Old browsers */
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #d7dee3 0%, #f5f7f9 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #d7dee3 0%, #f5f7f9 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7dee3', endColorstr='#f5f7f9',GradientType=0 );
+  /* IE6-9 */
+}
+
 /* align the icon and the header text of column */
 #products .fa,
 #products p {
-  width: 100%;
   line-height: 1.6;
   text-align: center;
-}
-
-#products p.lead {
-  text-transform: uppercase;
 }
 
 /* ensures that all columns have the same height */
@@ -10954,19 +10981,18 @@ body {
 }
 
 #contact {
-  background-image: url("/images/imac-on-a-table.jpg");
+  background-image: url("/images/43f6e96e380e962457ece50b229c8e0c.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  color: white;
 }
 
-#contact .content {
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+#contact .section .container {
+  width: 1100%;
 }
 
-#gmap_canvas img {
+#contact #gmap_canvas img {
   max-width: none !important;
   background: none !important;
 }
@@ -10977,10 +11003,6 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   color: white;
-}
-
-#sites .responsive-img {
-  width: 50%;
 }
 
 footer {
@@ -11142,22 +11164,21 @@ footer {
   margin: 20px;
 }
 
-.section .section-title h1 {
-  margin: 20px 0;
-}
-
-.section {
-  padding: 100px 0;
-}
-
-.section > .container {
-  /* position: relative;
-  top: 50vh;
-  left: 50vw; */
+.section .container {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
 }
 
 .full-width-relative {
   width: 100%;
+}
+
+.section .lead.uppercase {
+  text-transform: uppercase;
+  text-align: center;
 }
 
 /*# sourceMappingURL=site.css.map */

@@ -7,6 +7,7 @@
 // bootstrap css content
 @import "carousel";
 
+@import "about";
 @import "menu";
 
 @import "products";
@@ -21,22 +22,17 @@
   margin: 20px; 
 }
 
-.section .section-title h1 {
-  margin: 20px 0;
-}
-
-
-.section{
-  padding: 100px 0;
-  //height: 100vh;
-}
-
-.section > .container {
-  /* position: relative;
-  top: 50vh;
-  left: 50vw; */
+.section .container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .full-width-relative {
   width: 100%;
+}
+
+.section .lead.uppercase {
+  text-transform: uppercase;
+  text-align: center;
 }

@@ -1,16 +1,18 @@
+$bg-img: '/images/43f6e96e380e962457ece50b229c8e0c.jpg';
+
 #contact {
-  background-image: url('/images/imac-on-a-table.jpg');
+  background-image: url($bg-img);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  color: white;
 }
 
-#contact .content {
-  top: 50%;
-  transform: translateY(-50%);
+#contact .section .container {
+  width: 1100%;
 }
 
-#gmap_canvas img{
+#contact #gmap_canvas img{
   max-width:none!important;
   background:none!important
 }
