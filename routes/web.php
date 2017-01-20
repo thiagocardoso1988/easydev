@@ -12,10 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('site.index');
+	return view('site.index');
 });
 
-Route::get('/blog', function () {
-    //return view('blog.index');
-    return 'comming soon...';
-});
+Route::get('/blog', 'BlogController@index');
+/*Route::get('/blog', function () {
+	if (config('app.env') == 'local') {
+		return view('blog.index');
+	};
+	return 'comming soon...';
+});*/
