@@ -16,5 +16,6 @@ Route::get('/', function () {
 });
 
 Route::get('/blog', function () {
-    return view('blog.index');
+    //return view('blog.index');
+    return 'comming soon...';
 });
