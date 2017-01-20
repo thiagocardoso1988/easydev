@@ -22,7 +22,7 @@ class BlogController extends Controller
 		if (!(env('APP_ENV') == 'local')){
 			if (!($this->constructmode)) {
 				//return view('blog.index');
-				return 'test';
+				return 'outra coisa';
 			};
 		}
 		return view('construct');
