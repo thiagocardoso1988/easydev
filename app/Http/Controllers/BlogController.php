@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class BlogController extends Controller
 {
 	//
-	private $constructmode = true;
+	private $constructmode = false;
 
 
 	public function __construct()
@@ -19,12 +19,9 @@ class BlogController extends Controller
 
 	public function index()
 	{
-		if (!(config('app.env') == 'local')){
-			if (!($this->constructmode == true)) {
-				//return view('blog.index');
-				return 'outra coisa';
-			};
-		}
+		if (!($this->constructmode == true)) {
+			return view('blog.index');
+		};
 		return view('construct');
 	}
 }
