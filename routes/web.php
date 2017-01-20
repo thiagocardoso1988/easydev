@@ -16,6 +16,9 @@ Route::get('/', function () {
     return 'hit';
 });
 
+Route::get('/test', function () {
+    return 'hit';
+});
 
 Route::get('/blog', function () {
     return view('blog.index');
