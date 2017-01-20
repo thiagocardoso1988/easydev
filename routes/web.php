@@ -16,9 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/blog', 'BlogController@index');
-/*Route::get('/blog', function () {
-	if (config('app.env') == 'local') {
-		return view('blog.index');
-	};
-	return 'comming soon...';
-});*/
+

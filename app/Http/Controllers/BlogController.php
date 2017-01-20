@@ -19,10 +19,12 @@ class BlogController extends Controller
 
 	public function index()
 	{
-		if (!($this->constructmode) || !(env('APP_ENV') == 'local')) {
-			//return view('blog.index');
-			return 'test';
-		};
+		if (!(env('APP_ENV') == 'local')){
+			if (!($this->constructmode)) {
+				//return view('blog.index');
+				return 'test';
+			};
+		}
 		return view('construct');
 	}
 }
