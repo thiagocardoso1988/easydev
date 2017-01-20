@@ -13,13 +13,13 @@ class BlogController extends Controller
 	public function __construct()
 	{
 		//echo $this->constructmode;
-		echo env('APP_ENV');
+		echo config('app.env');
 	}
 
 
 	public function index()
 	{
-		if (!(env('APP_ENV') == 'local')){
+		if (!(config('app.env') == 'local')){
 			if (!($this->constructmode)) {
 				//return view('blog.index');
 				return 'outra coisa';
