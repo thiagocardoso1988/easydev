@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('site.index');
+    //return view('site.index');
+    return 'hit';
 });
 
 
