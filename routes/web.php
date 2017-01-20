@@ -12,8 +12,7 @@
 */
 
 Route::get('/', function () {
-    //return view('site.index');
-    return 'hit';
+    return view('site.index');
 });
 
 Route::get('/test', function () {
