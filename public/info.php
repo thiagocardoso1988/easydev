@@ -1,6 +1,6 @@
 <?php
 
-echo 'FROM ROOT';
+echo 'FROM PUBLIC';
 
 phpinfo(); 
 
