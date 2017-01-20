@@ -76,7 +76,7 @@ window.onscroll = function(e) {
  */
 //offSetManager();
 
-$(document).on('click', 'a', function(event){
+$(document).on('click', '.smooth-scroll', function(event){
     event.preventDefault();
 
     $('html, body').animate({
