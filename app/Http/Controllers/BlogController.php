@@ -13,6 +13,7 @@ class BlogController extends Controller
 	public function __construct()
 	{
 		$this->env = config('app.env');
+		echo $this->env;
 	}
 
 
