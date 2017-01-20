@@ -7,22 +7,22 @@ use Illuminate\Http\Request;
 class BlogController extends Controller
 {
 	//
-	private $env;
+	private $constructmode = false;
 
 
 	public function __construct()
 	{
-		$this->env = config('app.env');
+		//echo $this->constructmode;
 		echo env('APP_ENV');
 	}
 
 
 	public function index()
 	{
-		if ($this->env == 'local') {
+		if (!($this->constructmode) && !(env('APP_ENV') == 'local')) {
 			//return view('blog.index');
 			return 'test';
 		};
-		return 'comming soon...';
+		return view('construct');
 	}
 }
