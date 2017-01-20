@@ -15,10 +15,6 @@ Route::get('/', function () {
     return view('site.index');
 });
 
-Route::get('/test', function () {
-    return 'hit';
-});
-
 Route::get('/blog', function () {
     return view('blog.index');
 });
