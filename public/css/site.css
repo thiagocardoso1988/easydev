@@ -11154,6 +11154,10 @@ footer {
   font-size: 12px;
 }
 
+#fbposts .post p a {
+  color: #fff;
+}
+
 @media screen and (min-width: 769px) {
   #logo-footer {
     width: 200px;
