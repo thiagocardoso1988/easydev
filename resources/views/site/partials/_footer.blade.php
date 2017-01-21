@@ -69,9 +69,8 @@
     </div>
     <div class="col-sm-6">
       <ul class="bottom_ul">
-        <li><a href="#">easydev.com.br</a></li>
-        <li><a href="#">Contato</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="/">easydev.com.br</a></li>
+        <li><a href="#contact">Contato</a></li>
       </ul>
     </div>
   </div>

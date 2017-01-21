@@ -1,6 +1,6 @@
 
 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCs90APVgE5vS8A3Xs7257oAl2BtStBANk'></script>
-<script type='text/javascript' sc='https://embedmaps.com/google-maps-authorization/script.js?id=5ac4ada6ba7ba4c894a383b27b5d6f5a117d244b'></script>
+
 
 <div id="contact" class="section">
   <div class="container">
@@ -44,7 +44,7 @@
             <div class="form-group">
               <label for="inputMsg" class="col-sm-2 control-label">Mensagem</label>
               <div class="col-sm-10">
-                <textarea class="form-control" rows="4"></textarea>
+                <textarea class="form-control" rows="5"></textarea>
               </div>
             </div>
             <div class="form-group">

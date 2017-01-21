@@ -7,7 +7,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       </button>
-      <a id="brand" class="navbar-brand" href="#start" class="smooth-scroll">
+      <a id="brand" class="navbar-brand" href="/" class="smooth-scroll">
         <img src="/images/logos/easydev_logo_white_200.png" alt="">
       </a>
     </div>
@@ -17,7 +17,6 @@
         <li><a href="#sites" class="smooth-scroll">Sites e Sistemas Web</a></li>
         <li><a href="#products" class="smooth-scroll">Produtos e Serviços</a></li>
         <li><a href="#contact" class="smooth-scroll">Contato</a></li>
-        <li><a href="{{ url('/blog') }}">Blog</a></li>
       </ul>
     </div><!-- /.nav-collapse -->
   </div><!-- /.container -->

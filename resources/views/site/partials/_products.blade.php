@@ -34,7 +34,7 @@
         </div>
       </div>
       <div class="text-center">
-        <button class="btn btn-primary btn-lg">Entre em contato</button>
+        <a href="#contact" class="btn btn-primary btn-lg smooth-scroll">Entre em contato</a>
       </div>
     </div>
   </div>

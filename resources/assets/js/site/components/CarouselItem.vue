@@ -6,7 +6,7 @@
           <h1 v-html="info.header"></h1> 
           <h3>{{ info.description }}</h3>
       </hgroup>
-      <button class="btn btn-hero btn-lg" role="button">{{ info.btncaption }}</button>
+      <a class="btn btn-hero btn-lg" href="{{ info.btnlink }}">{{ info.btncaption }}</a>
     </div>
   </div>
 </template>

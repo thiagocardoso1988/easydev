@@ -3,18 +3,18 @@
 
 @section('content')
 
-  @include('site.includes.menu')
+  @include('site.partials._menu')
   
-  @include('site.includes.jumbotron')
+  @include('site.partials._jumbotron')
 
-  @include('site.includes.about')
+  @include('site.partials._about')
 
-  @include('site.includes.sites')
+  @include('site.partials._sites')
 
-  @include('site.includes.products')
+  @include('site.partials._products')
 
-  @include('site.includes.contact')
+  @include('site.partials._contact')
 
-  @include('site.includes.footer')
+  @include('site.partials._footer')
 
 @endsection
