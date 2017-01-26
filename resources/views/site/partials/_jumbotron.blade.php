@@ -46,7 +46,7 @@
         <div class="hero">
           <hgroup>
           <h1>Seja Livre</h1>
-          <h3>enha acesso ao seu negócio de qualquer lugar.</h3>
+          <h3>Tenha acesso ao seu negócio de qualquer lugar.</h3>
           </hgroup>
           <a class="btn btn-hero btn-lg smooth-scroll" href="#contact">Entre em Contato</a>
         </div>
