@@ -1,4 +1,5 @@
-var url = "https://graph.facebook.com/v2.8/me?fields=posts.limit(5)&access_token=EAAIpd7YTg7gBABJL8B1MN7rxZBIZBvUQlpZAX42a9xBfKxACBVnOtZCKzZBZBSj0QTCFF51fLfjVcvSBmi3lWXpxueyE9rPXpAXZCHIMkZCWzQFLKgdZCJMvX3acrkwA9DeAr4LUatezBXohGohE3pZCoanNfu2wrbnPNU0hOZCd0k0PttNcHZAxYUiJO54Uv7JUHrEZD";
+var token = "EAAIpd7YTg7gBAPniAMzkuWLc5HgiXEAJZA9tb5F7qJVNnPUJvlRMmOC1m1NMUTduk0Q0usoo4amChbJTgd1yOBJsZBkafKoHxaqou9PoB83eKMQkmXs0wgAW1yKVTLuy3poydZAlThSV17187dYZCS9GB8f66mFTtYSxNXEL9fPLpWPOZAiqQ8L3zZCiHcaMgZD"
+var url = "https://graph.facebook.com/v2.8/me?fields=posts.limit(5)&access_token=" + token;
 
 
 function getFbPosts(){

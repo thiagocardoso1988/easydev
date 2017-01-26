@@ -12,7 +12,25 @@ $bg-img: '/images/43f6e96e380e962457ece50b229c8e0c.jpg';
   width: 100%;
 }
 
+#contact #gmap_canvas {
+  height:100%;
+  width: 100%;
+  min-height: 400px;
+}
+
 #contact #gmap_canvas img{
   max-width:none!important;
-  background:none!important
+  background:none!important;
+  height:100%;
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 768px){
+  #contact {color: inherit; }
+}
+
+@media screen and (max-width: 480px){
+  #contact {color: inherit; }
 }

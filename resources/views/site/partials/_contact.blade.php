@@ -55,8 +55,8 @@
           </form>
         </div>
         <div class="col-md-6">
-          <div style='overflow:hidden;height:400px;width:520px;'>
-            <div id='gmap_canvas' style='height:400px;width:520px;'></div>
+          <div style='overflow:hidden'>
+            <div id='gmap_canvas'></div>
           </div>
         </div>
       </div>

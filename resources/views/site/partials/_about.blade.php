@@ -6,10 +6,10 @@
 
 
       <div class="row">
-        <div class="col-md-6">
-          <img class="center-block" src="/images/logos/easydev_logo_normal_200.png">
+        <div class="col-md-6 col-sm-12">
+          <img id="logo-about" class="center-block" src="/images/logos/easydev_logo_normal_200.png">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-sm-12">
           <p class="lead">Nascemos no começo de 2016 com a intenção de criar sonhos através de sistemas informatizados, para satisfazer a necessidade existente no mercado de nossos clientes. Com nossa expertise e sua demanda, desenvolvemos tudo o que for necessário para que a sua empresa seja e continue sendo produtiva e de sucesso.</p>
           <p class="lead uppercase">Nós somos a <strong>Easydev Desenvolvimentos</strong>.</p>
         </div>

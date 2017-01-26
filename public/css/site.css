@@ -10876,20 +10876,53 @@ button.close {
 }
  */
 #about .row {
+  /* display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+
+  align-items: center; */
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
   align-items: center;
 }
 
-/* #about .row {
-  display: table;
+#about .row #logo-about {
+  margin: 30px auto;
 }
 
-#about .row [class=^col] {
-  background-color: red;
+#about #logo-about {
+  width: inherit;
 }
- */
+
+@media screen and (max-width: 768px) {
+  #about #logo-about {
+    width: 200px;
+  }
+  #about .row {
+    display: inherit;
+  }
+  #logo-about {
+    margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #about #logo-about {
+    width: 200px;
+  }
+  #about .row {
+    display: inherit;
+  }
+  #logo-about {
+    margin: 30px auto;
+  }
+}
+
 /*
 * Style tweaks
 * --------------------------------------------------
@@ -10998,9 +11031,29 @@ body {
   width: 100%;
 }
 
+#contact #gmap_canvas {
+  height: 100%;
+  width: 100%;
+  min-height: 400px;
+}
+
 #contact #gmap_canvas img {
   max-width: none !important;
   background: none !important;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  #contact {
+    color: inherit;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #contact {
+    color: inherit;
+  }
 }
 
 #sites {
