@@ -11244,4 +11244,10 @@ footer {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .section-title h1 {
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=site.css.map */
