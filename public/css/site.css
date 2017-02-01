@@ -11042,6 +11042,7 @@ body {
   background: none !important;
   height: 100%;
   width: 100%;
+  color: inherit;
 }
 
 @media screen and (max-width: 768px) {

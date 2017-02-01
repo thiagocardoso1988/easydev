@@ -7,37 +7,48 @@
     <div class="section-title">
       <h1>Contato</h1>
       <p class="lead uppercase">Entre em contato conosco, tire suas dúvidas e requisite um orçamento. Estamos sempre disponíveis para atendê-lo a qualquer momento.</p>
-
+@if (count($errors) > 0)
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
       <div class="row">
         <div class="col-md-6">
-          <form class="form-horizontal">
-            <div class="form-group">
+          <form class="form-horizontal" method="POST" action="{{ url('/sendmail') }}">
+            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+            <div class="form-group @if ($errors->has('inputNome')) has-error @endif">
               <label for="inputNome" class="col-sm-2 control-label">Nome</label>
               <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputEmail3" placeholder="Digite seu nome">
+                <input type="text" class="form-control" name="inputNome" placeholder="Digite seu nome">
+                @if ($errors->has('inputNome')) <p class="help-block">{{ $errors->first('inputNome') }}</p> @endif
               </div>
             </div>
             <div class="form-group">
               <label for="inputEmail" class="col-sm-2 control-label">Email</label>
               <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Digite seu email">
+                <input type="email" class="form-control" name="inputEmail" placeholder="Digite seu email">
               </div>
             </div>
             <div class="form-group">
               <label for="inputFone" class="col-sm-2 control-label">Telefone</label>
               <div class="col-sm-10">
-                <input type="tel" class="form-control" id="inputPassword3" placeholder="Digite seu telefone">
+                <input type="tel" class="form-control" name="inputTelefone" placeholder="Digite seu telefone">
               </div>
             </div>
             <div class="form-group">
               <label for="inputSubject" class="col-sm-2 control-label">Assunto</label>
               <div class="col-sm-10">
-                <select class="form-control">
-                  <option>Sites e Sistemas Web</option>
-                  <option>Produtos e Serviços</option>
-                  <option>Manutenção de Sites</option>
-                  <option>Mídias Sociais</option>
-                  <option>Outros</option>
+                <select class="form-control" name="inputAssunto">
+                  <option value="">Selecione o assunto</option>
+                  <option value="Sites e Sistemas Web">Sites e Sistemas Web</option>
+                  <option value="Produtos e Serviços">Produtos e Serviços</option>
+                  <option value="Manutenção de Sites">Manutenção de Sites</option>
+                  <option value="Mídias Sociais">Mídias Sociais</option>
+                  <option value="Outros">Outros</option>
                 </select>
               </div>
             </div>

@@ -11,10 +11,14 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
 	return view('site.index');
-});
+});*/
+Route::get('/', 'SiteController@index');
+Route::post('/sendmail', 'SiteController@sendmail');
+
+
 
 //Route::get('/blog', 'BlogController@index');
-Route::resource('blog', 'BlogController');
+//Route::resource('blog', 'BlogController');
 
